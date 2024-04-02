@@ -61,6 +61,7 @@ body {
     flex-direction: column;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+    font: white;
 
 }
 
@@ -71,10 +72,10 @@ body {
     }
 
     .input_container {
-
         height: auto;
         width: 100%;
         margin-top: 50px;
+        font: white;
 
     }
 
@@ -82,6 +83,7 @@ body {
         margin-left: 30px;
         padding-bottom: 20px;
         width: auto;
+        font: white;
     }
 
     .input_container div input {
@@ -91,30 +93,23 @@ body {
         border-radius: 5px;
     }
 
-    .btn {
-        margin-left: 6px;
-        padding: 15px 10px;
-        background-color: rgb(6, 114, 180);
-        border-radius: 8px;
-        color: white;
-        font-size: 20px;
-    }
-
     .usdt{
         color: greenyellow;
         position: relative;
+        line-height: 25px;
     }
 
     .btc {
         color: greenyellow;
     }
+
     .address{
         color: rgb(126, 226, 26);
 
     }
-    .addressCon {
 
-        background-color: teal;
+    .addressCon {
+        background-color: #4E5B6E;
         width: fit-content;
         height: 150px;
         color: white;
@@ -126,5 +121,24 @@ body {
     }
 
     .note{
-        color: rgb(185, 7, 7);
+        color:#fff;
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    button {
+        padding: 18px;
+        margin-left: 150px;
+        text-transform: capitalize;
+        border: none;
+        border-radius: 5px;
+        background-color: #4E5B6E;
+       color: #fff;
+        cursor: pointer; 
+        bottom: 200px;
+        position: relative;
+      }
+      
+    a{
+        color: #fff;
     }
